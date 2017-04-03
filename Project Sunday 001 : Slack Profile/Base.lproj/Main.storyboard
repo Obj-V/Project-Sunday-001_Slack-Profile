@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="15G1217" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Project_Sunday_001___Slack_Profile" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="zy1-KI-Bmn">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="EditCell" rowHeight="56" id="D1s-eU-0sC">
+                                        <rect key="frame" x="0.0" y="28" width="375" height="56"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="D1s-eU-0sC" id="PN6-I3-NNg">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="56"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="dPN-o0-AQY">
+                                                    <rect key="frame" x="18" y="10.5" width="339" height="33"/>
+                                                    <subviews>
+                                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Obx-MB-mFn" customClass="EditButton" customModule="Project_Sunday_001___Slack_Profile" customModuleProvider="target">
+                                                            <rect key="frame" x="0.0" y="0.0" width="164.5" height="33"/>
+                                                            <state key="normal" title="Message">
+                                                                <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                                            </state>
+                                                        </button>
+                                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="w3q-y7-PV1" customClass="EditButton" customModule="Project_Sunday_001___Slack_Profile" customModuleProvider="target">
+                                                            <rect key="frame" x="174.5" y="0.0" width="164.5" height="33"/>
+                                                            <state key="normal" title="Edit Profile">
+                                                                <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                                            </state>
+                                                        </button>
+                                                    </subviews>
+                                                </stackView>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="dPN-o0-AQY" firstAttribute="leading" secondItem="PN6-I3-NNg" secondAttribute="leadingMargin" constant="10" id="Vfl-RC-Fke"/>
+                                                <constraint firstItem="dPN-o0-AQY" firstAttribute="height" secondItem="PN6-I3-NNg" secondAttribute="height" multiplier="0.6" id="XWW-ci-pFO"/>
+                                                <constraint firstItem="dPN-o0-AQY" firstAttribute="centerY" secondItem="PN6-I3-NNg" secondAttribute="centerY" id="drp-DS-kif"/>
+                                                <constraint firstItem="dPN-o0-AQY" firstAttribute="centerX" secondItem="PN6-I3-NNg" secondAttribute="centerX" id="jzA-Sn-Z9Y"/>
+                                                <constraint firstAttribute="trailingMargin" secondItem="dPN-o0-AQY" secondAttribute="trailing" constant="10" id="v29-q9-ePQ"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="InfoCell" rowHeight="65" id="WSo-Nh-rPt" customClass="InfoCell" customModule="Project_Sunday_001___Slack_Profile" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="84" width="375" height="65"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="WSo-Nh-rPt" id="7V3-gK-kZa">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="65"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="boN-WX-LSa">
+                                                    <rect key="frame" x="18" y="10" width="339" height="45.5"/>
+                                                    <subviews>
+                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="What I do" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Bu5-FC-LMG">
+                                                            <rect key="frame" x="0.0" y="0.0" width="339" height="23"/>
+                                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                            <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                                            <nil key="highlightedColor"/>
+                                                        </label>
+                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="iOS Developer" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eMu-hu-fyU">
+                                                            <rect key="frame" x="0.0" y="23" width="339" height="22.5"/>
+                                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                            <nil key="textColor"/>
+                                                            <nil key="highlightedColor"/>
+                                                        </label>
+                                                    </subviews>
+                                                </stackView>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="boN-WX-LSa" firstAttribute="centerX" secondItem="7V3-gK-kZa" secondAttribute="centerX" id="Vkn-3E-Zhk"/>
+                                                <constraint firstItem="boN-WX-LSa" firstAttribute="height" secondItem="7V3-gK-kZa" secondAttribute="height" multiplier="0.7" id="dH7-My-v72"/>
+                                                <constraint firstAttribute="trailingMargin" secondItem="boN-WX-LSa" secondAttribute="trailing" constant="10" id="eat-LD-Jr6"/>
+                                                <constraint firstItem="boN-WX-LSa" firstAttribute="centerY" secondItem="7V3-gK-kZa" secondAttribute="centerY" id="fZH-ip-DbA"/>
+                                                <constraint firstItem="boN-WX-LSa" firstAttribute="leading" secondItem="7V3-gK-kZa" secondAttribute="leadingMargin" constant="10" id="mCg-7Z-qSI"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="subtitleLabel" destination="eMu-hu-fyU" id="rpJ-T3-Mur"/>
+                                            <outlet property="titleLabel" destination="Bu5-FC-LMG" id="You-nV-UVe"/>
+                                        </connections>
+                                    </tableViewCell>
+                                </prototypes>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </view>
+                    <connections>
+                        <outlet property="tableView" destination="zy1-KI-Bmn" id="Lrt-aY-Xti"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="136.80000000000001" y="138.98050974512745"/>
+        </scene>
+    </scenes>
+</document>
