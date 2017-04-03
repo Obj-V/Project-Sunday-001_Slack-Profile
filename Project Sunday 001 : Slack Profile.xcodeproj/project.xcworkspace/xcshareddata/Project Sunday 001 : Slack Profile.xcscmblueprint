@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "226A307E43285B0E7BE0FB4566B84DFCA1FAB6A3",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "226A307E43285B0E7BE0FB4566B84DFCA1FAB6A3" : 9223372036854775807,
+    "32D0AD9542664B065091E9A0753507A82D844560" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "7545F087-2FCE-46F6-9B3E-C956514B8A2C",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "226A307E43285B0E7BE0FB4566B84DFCA1FAB6A3" : "Project-Sunday-001_Slack-Profile\/",
+    "32D0AD9542664B065091E9A0753507A82D844560" : ""
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "Project Sunday 001 : Slack Profile",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Project Sunday 001 : Slack Profile.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/virata-yindee\/Project-Sunday-001_Slack-Profile.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "226A307E43285B0E7BE0FB4566B84DFCA1FAB6A3"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/virata-yindee\/Project-Sunday.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "32D0AD9542664B065091E9A0753507A82D844560"
+    }
+  ]
+}
